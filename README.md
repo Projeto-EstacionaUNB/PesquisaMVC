@@ -5,11 +5,11 @@ Este repositória foi criado com o objetivo de servir como exemplo para a pesqui
 
 Projeto Composto dos Membros :
 
-Danilo Carvalho Antunes - 211039312
+[Danilo Carvalho Antunes](https://github.com/Danilo-Carvalho-Antunes) - 211039312
 <br>
-Gabriel Ferreira da Silva - 200018060
+[Gabriel Ferreira da Silva](https://github.com/oo7gabriel) - 200018060
 <br>
-Paulo Henrique Rossi de Borba - 190094273
+[Paulo Henrique Rossi de Borba](https://github.com/paulohborba) - 190094273
 
 O enunciado desse dever pode ser encontrado no link abaixo:
 
