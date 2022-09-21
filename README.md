@@ -4,6 +4,7 @@ Pesquisa da matéria de Orientação a Objetos do semestre 2022.1
 Este repositória foi criado com o objetivo de servir como exemplo para a pesquisa sobre MVC, passado pelo professor
 
 Projeto Composto dos Membros :
+GRUPO 01
 
 [Danilo Carvalho Antunes](https://github.com/Danilo-Carvalho-Antunes) - 211039312
 <br>
