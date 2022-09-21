@@ -36,7 +36,7 @@ public class MenuLista extends JFrame {
 
         setTitle("Lista de Alunos");
 
-        String[] alunosDaLista = alunoGenerico.listaAlunos().split("\n");
+        String[] alunosDaLista = alunoGenerico.listaAlunos();
 
         listaAtual = new JList(alunosDaLista);
 

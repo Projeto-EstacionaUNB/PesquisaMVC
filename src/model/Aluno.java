@@ -1,5 +1,10 @@
 package model;
 
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
 public class Aluno {
     private String nomeCompleto;
     private String nomeCurso;
@@ -47,6 +52,19 @@ public class Aluno {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public void salvaAluno() throws IOException {
+        try{
+            FileWriter arq = new FileWriter("leitura.txt",true);
+            PrintWriter gravarArq = new PrintWriter(arq);
+            gravarArq.println("Nome do Aluno: " + this.getNomeCompleto() + " - Nome do Curso: " + this.getNomeCurso() + " - Matricula: " + this.getMatriculaAluno() + " - Email: " + this.getEmail()+"\n");
+            arq.close();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
 
     @Override
     public String toString() {
