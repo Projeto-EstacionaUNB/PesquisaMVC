@@ -21,6 +21,7 @@ public class AlunoController {
 
     public boolean guardaAluno(String nomeCompleto, String nomeCurso, int matriculaAluno, String email) throws IOException {
         Aluno x = new Aluno(nomeCompleto, nomeCurso,matriculaAluno,email);
+
         alunos.add(x);
 
         if(x == null){
@@ -28,7 +29,7 @@ public class AlunoController {
         }else{
             FileWriter arq = new FileWriter("leitura.txt",true);
             PrintWriter gravarArq = new PrintWriter(arq);
-            gravarArq.println(alunos.toString() + " \n");
+            gravarArq.println(alunos.toString().replace("[","").replace("]","").replace(",","") + " \n");
             arq.close();
             return true;
         }
@@ -53,7 +54,7 @@ public class AlunoController {
         }
         lerar.close();
 
-        dados = dados.toString().replace("[","").replace("]","").replace(",","");
+        dados = dados.toString();
         return dados;
     }
 

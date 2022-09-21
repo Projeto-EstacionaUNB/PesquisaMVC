@@ -69,10 +69,12 @@ public class MenuAluno extends JFrame{
                 try {
                     if(alunosC.guardaAluno(texto,nomeCurso,matricula,email)){
                         JOptionPane.showMessageDialog(null,"Cadastrado com Sucesso!");
+                        dispose();
                     }
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
+
             }
         });
 

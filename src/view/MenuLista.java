@@ -30,7 +30,8 @@ public class MenuLista extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
-        managerLista = new GridLayout(2,5);
+
+        managerLista = new GridLayout(1,5);
         setLayout(managerLista);
 
         setTitle("Lista de Alunos");
