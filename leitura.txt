@@ -1,0 +1,14 @@
+[Nome Completo: aaa / Nome Curso: kkk / Matricula Aluno: 1 / Email: aaa
+, Nome Completo: aaa / Nome Curso: kkk / Matricula Aluno: 1 / Email: aaa
+, Nome Completo: aaa / Nome Curso: kkk / Matricula Aluno: 1 / Email: aaa
+] 
+
+[Nome Completo: mzmz / Nome Curso: xxnxn / Matricula Aluno: 2222 / Email: aaaa
+] 
+
+[Nome Completo: aaazmzmz / Nome Curso: wwww / Matricula Aluno: 3332 / Email: azzzm
+] 
+
+[Nome Completo: ssss / Nome Curso: zzzz / Matricula Aluno: 111 / Email: ssss
+] 
+
